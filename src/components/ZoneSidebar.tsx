@@ -72,6 +72,7 @@ import w2BusRoutesData from '../data/w2BusRoutes.json';
 import dartStopsData from '../data/dartStops.json';
 import luasGreenLineStopsData from '../data/luasGreenLineStops.json';
 import luasRedLineStopsData from '../data/luasRedLineStops.json';
+import dublinSpotsData from '../data/dublinSpots.json';
 
 let determiningHidingZones = false;
 let buttonJustClicked = false;
@@ -428,6 +429,10 @@ export const ZoneSidebar = () => {
           geoJsonPoint.properties.routes &&
           geoJsonPoint.properties.routes.includes('Luas Red Line');
 
+        const isDublinSpots =
+          geoJsonPoint.properties.routes &&
+          geoJsonPoint.properties.routes.includes('Dublin Spots');
+
         const marker = L.marker(latlng, {
           icon: L.divIcon({
             html: renderToString(
@@ -448,6 +453,8 @@ export const ZoneSidebar = () => {
                   <FaBus className="text-blue-600" width={100} height={100} />
                 ) : isOrbitalRoute ? (
                   <FaBus className="text-green-600" width={100} height={100} />
+                ) : isDublinSpots ? (
+                  <FaBus className="text-purple-600" width={100} height={100} />
                 ) : (
                   <FaTrain width={100} height={100} />
                 )}
@@ -521,6 +528,8 @@ export const ZoneSidebar = () => {
       const luasRedLineStopsIndex = $displayHidingZonesOptions.indexOf(
         'luas_red_line_stops'
       );
+      const dublinSpotsIndex =
+        $displayHidingZonesOptions.indexOf('dublin_spots');
 
       const hasCustomBusRoutes = customBusRoutesIndex !== -1;
       const hasCorridorBusRoutes = corridorBusRoutesIndex !== -1;
@@ -535,6 +544,7 @@ export const ZoneSidebar = () => {
       const hasDartStops = dartStopsIndex !== -1;
       const hasLuasGreenLineStops = luasGreenLineStopsIndex !== -1;
       const hasLuasRedLineStops = luasRedLineStopsIndex !== -1;
+      const hasDublinSpots = dublinSpotsIndex !== -1;
 
       // Remove custom bus routes options from the options for OSM query
       let osmOptions = [...$displayHidingZonesOptions];
@@ -658,6 +668,16 @@ export const ZoneSidebar = () => {
 
       if (hasLuasRedLineStops) {
         const index = osmOptions.indexOf('luas_red_line_stops');
+        if (index !== -1) {
+          osmOptions = [
+            ...osmOptions.slice(0, index),
+            ...osmOptions.slice(index + 1),
+          ];
+        }
+      }
+
+      if (hasDublinSpots) {
+        const index = osmOptions.indexOf('dublin_spots');
         if (index !== -1) {
           osmOptions = [
             ...osmOptions.slice(0, index),
@@ -812,6 +832,26 @@ export const ZoneSidebar = () => {
         } catch (error) {
           console.error('Error loading Luas Red Line stops:', error);
           toast.error('Failed to load Luas Red Line stops');
+        }
+      }
+
+      // Add Dublin spots if selected
+      if (hasDublinSpots) {
+        try {
+          const dublinFeatures = dublinSpotsData.features.map((feature) => ({
+            type: 'Feature',
+            geometry: feature.geometry,
+            properties: {
+              id: feature.properties.id,
+              name: feature.properties.name,
+              routes: feature.properties.routes,
+              'name:en': feature.properties.name, // Add name:en to match expected structure
+            },
+          }));
+          places = [...places, ...dublinFeatures];
+        } catch (error) {
+          console.error('Error loading Dublin spots:', error);
+          toast.error('Failed to load Dublin spots');
         }
       }
 
@@ -1022,62 +1062,6 @@ export const ZoneSidebar = () => {
                 <MultiSelect
                   options={[
                     {
-                      label: 'Railway Stations',
-                      value: '[railway=station]',
-                    },
-                    {
-                      label: 'Railway Halts',
-                      value: '[railway=halt]',
-                    },
-                    {
-                      label: 'Railway Stops',
-                      value: '[railway=stop]',
-                    },
-                    {
-                      label: 'Tram Stops',
-                      value: '[railway=tram_stop]',
-                    },
-                    {
-                      label: 'Bus Stops',
-                      value: '[highway=bus_stop]',
-                    },
-                    {
-                      label: 'Corridor Routes (C1-C4, Every 2nd Stop)',
-                      value: 'corridor_bus_routes',
-                    },
-                    {
-                      label: 'N2 Route (Every 2nd Stop)',
-                      value: 'n2_bus_routes',
-                    },
-                    {
-                      label: 'N4 Route (Every 2nd Stop)',
-                      value: 'n4_bus_routes',
-                    },
-                    {
-                      label: 'N6 Route (Every 2nd Stop)',
-                      value: 'n6_bus_routes',
-                    },
-                    {
-                      label: 'S2 Route (Every 2nd Stop)',
-                      value: 's2_bus_routes',
-                    },
-                    {
-                      label: 'S4 Route (Every 2nd Stop)',
-                      value: 's4_bus_routes',
-                    },
-                    {
-                      label: 'S6 Route (Every 2nd Stop)',
-                      value: 's6_bus_routes',
-                    },
-                    {
-                      label: 'S8 Route (Every 2nd Stop)',
-                      value: 's8_bus_routes',
-                    },
-                    {
-                      label: 'W2 Route (Every 2nd Stop)',
-                      value: 'w2_bus_routes',
-                    },
-                    {
                       label: 'DART',
                       value: 'dart_stops',
                     },
@@ -1088,6 +1072,10 @@ export const ZoneSidebar = () => {
                     {
                       label: 'Luas Red Line',
                       value: 'luas_red_line_stops',
+                    },
+                    {
+                      label: 'Dublin Spots',
+                      value: 'dublin_spots',
                     },
                   ]}
                   onValueChange={displayHidingZonesOptions.set}
