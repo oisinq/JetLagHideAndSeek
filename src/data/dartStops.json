@@ -10,10 +10,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.211644,
-          53.320956
-        ]
+        "coordinates": [-6.211644, 53.320956]
       }
     },
     {
@@ -25,10 +22,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.175818,
-          53.381423
-        ]
+        "coordinates": [-6.175818, 53.381423]
       }
     },
     {
@@ -40,25 +34,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.204046,
-          53.372884
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8250IR0022",
-        "name": "Shankill (DART)",
-        "routes": "DART"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.117228,
-          53.236522
-        ]
+        "coordinates": [-6.204046, 53.372884]
       }
     },
     {
@@ -70,10 +46,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.19498,
-          53.309921
-        ]
+        "coordinates": [-6.19498, 53.309921]
       }
     },
     {
@@ -85,10 +58,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.15233,
-          53.29526
-        ]
+        "coordinates": [-6.15233, 53.29526]
       }
     },
     {
@@ -100,10 +70,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.134575,
-          53.294776
-        ]
+        "coordinates": [-6.134575, 53.294776]
       }
     },
     {
@@ -115,10 +82,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.254359,
-          53.347264
-        ]
+        "coordinates": [-6.254359, 53.347264]
       }
     },
     {
@@ -130,10 +94,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.226784,
-          53.363077
-        ]
+        "coordinates": [-6.226784, 53.363077]
       }
     },
     {
@@ -145,10 +106,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.19131,
-          53.378643
-        ]
+        "coordinates": [-6.19131, 53.378643]
       }
     },
     {
@@ -160,25 +118,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.248048,
-          53.343252
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8250IR0021",
-        "name": "Killiney (DART)",
-        "routes": "DART"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.113167,
-          53.25571
-        ]
+        "coordinates": [-6.248048, 53.343252]
       }
     },
     {
@@ -190,10 +130,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.237351,
-          53.339446
-        ]
+        "coordinates": [-6.237351, 53.339446]
       }
     },
     {
@@ -205,10 +142,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.074211,
-          53.388893
-        ]
+        "coordinates": [-6.074211, 53.388893]
       }
     },
     {
@@ -220,40 +154,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.115952,
-          53.391905
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8350IR0123",
-        "name": "Bray (Daly) (DART)",
-        "routes": "DART"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.100194,
-          53.203712
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8250IR0111",
-        "name": "Sandycove and Glasthule (DART)",
-        "routes": "DART"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.126937,
-          53.288125
-        ]
+        "coordinates": [-6.115952, 53.391905]
       }
     },
     {
@@ -265,10 +166,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.247731,
-          53.352586
-        ]
+        "coordinates": [-6.247731, 53.352586]
       }
     },
     {
@@ -280,10 +178,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.220843,
-          53.32784
-        ]
+        "coordinates": [-6.220843, 53.32784]
       }
     },
     {
@@ -295,10 +190,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.229191,
-          53.333963
-        ]
+        "coordinates": [-6.229191, 53.333963]
       }
     },
     {
@@ -310,10 +202,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.16089,
-          53.387472
-        ]
+        "coordinates": [-6.16089, 53.387472]
       }
     },
     {
@@ -325,10 +214,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.155434,
-          53.391496
-        ]
+        "coordinates": [-6.155434, 53.391496]
       }
     },
     {
@@ -340,25 +226,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.136925,
-          53.391242
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8250IR0014",
-        "name": "Dalkey (DART)",
-        "routes": "DART"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.103358,
-          53.275854
-        ]
+        "coordinates": [-6.136925, 53.391242]
       }
     },
     {
@@ -370,10 +238,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.16512,
-          53.299128
-        ]
+        "coordinates": [-6.16512, 53.299128]
       }
     },
     {
@@ -385,25 +250,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.178846,
-          53.302716
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8250IR0037",
-        "name": "Glenageary (DART)",
-        "routes": "DART"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.122893,
-          53.281196
-        ]
+        "coordinates": [-6.178846, 53.302716]
       }
     }
   ]

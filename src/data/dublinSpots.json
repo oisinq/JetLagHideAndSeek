@@ -168,30 +168,6 @@
         "type": "Point",
         "coordinates": [-6.200198192024133, 53.28931632500561]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Castleknock",
-        "routes": "Dublin Spots",
-        "id": "dublin/castleknock"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-6.3616985146409855, 53.37277149338207]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Santry",
-        "routes": "Dublin Spots",
-        "id": "dublin/santry"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-6.248563275258391, 53.39319045068501]
-      }
     }
   ]
 }

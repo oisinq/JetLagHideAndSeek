@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>DART</name>
+    <description>DART</description>
+    
+    <!-- Style for the route -->
+    <Style id="routeStyle">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    
+    <!-- Style for the points -->
+    <Style id="pointStyle">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blue-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+
+    <!-- Style for the circles -->
+    <Style id="circleStyle">
+      <LineStyle>
+        <color>7f0000ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>1f0000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    
+    <!-- Folder for points and circles -->
+    <Folder>
+      <name>DART</name>
+      <Placemark>
+        <name>1. Howth (DART)</name>
+        <description>ID: 8240IR0017</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.074211,53.388893,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. Sutton (DART)</name>
+        <description>ID: 8240IR0024</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.115952,53.391905,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. Bray (Daly) (DART)</name>
+        <description>ID: 8350IR0123</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.100194,53.203712,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. Sandycove and Glasthule (DART)</name>
+        <description>ID: 8250IR0111</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.126937,53.288125,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. Dublin Connolly (DART)</name>
+        <description>ID: 8220IR0007</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.247731,53.352586,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. Sandymount (DART)</name>
+        <description>ID: 8220IR0028</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.220843,53.32784,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. Lansdowne Road (DART)</name>
+        <description>ID: 8220IR0133</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.229191,53.333963,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. Kilbarrack (DART)</name>
+        <description>ID: 8220IR0141</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.16089,53.387472,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. Howth Junction and Donaghmede (DART)</name>
+        <description>ID: 8240IR0025</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.155434,53.391496,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. Bayside (DART)</name>
+        <description>ID: 8240IR0140</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.136925,53.391242,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11. Dalkey (DART)</name>
+        <description>ID: 8250IR0014</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.103358,53.275854,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12. Seapoint (DART)</name>
+        <description>ID: 8250IR0029</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.16512,53.299128,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13. Blackrock (DART)</name>
+        <description>ID: 8250IR0030</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.178846,53.302716,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    
+    <!-- Route line -->
+    <Placemark>
+      <name>DART Line</name>
+      <styleUrl>#routeStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.074211,53.388893,0 -6.115952,53.391905,0 -6.100194,53.203712,0 -6.126937,53.288125,0 -6.247731,53.352586,0 -6.220843,53.32784,0 -6.229191,53.333963,0 -6.16089,53.387472,0 -6.155434,53.391496,0 -6.136925,53.391242,0 -6.103358,53.275854,0 -6.16512,53.299128,0 -6.178846,53.302716,0 </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

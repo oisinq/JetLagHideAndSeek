@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Luas Red Line</name>
+    <description>Luas Red Line</description>
+    
+    <!-- Style for the route -->
+    <Style id="routeStyle">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    
+    <!-- Style for the points -->
+    <Style id="pointStyle">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+
+    <!-- Style for the circles -->
+    <Style id="circleStyle">
+      <LineStyle>
+        <color>7f0000ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>1f0000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    
+    <!-- Folder for points and circles -->
+    <Folder>
+      <name>Luas Red Line</name>
+      <Placemark>
+        <name>1. The Point (Luas Red Line)</name>
+        <description>ID: 8220GA00436</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.22918668,53.34827635,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. Hospital (Luas Red Line)</name>
+        <description>ID: 8230GA00341</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.378766,53.289374,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. Goldenbridge (Luas Red Line)</name>
+        <description>ID: 8220GA00369</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.313299,53.335879,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. Suir Road (Luas Red Line)</name>
+        <description>ID: 8220GA00372</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.307231258,53.33659218,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. Cookstown (Luas Red Line)</name>
+        <description>ID: 8230GA00338</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.384038,53.293311,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. Kylemore (Luas Red Line)</name>
+        <description>ID: 8220GA00356</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.343697,53.32652,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    
+    <!-- Route line -->
+    <Placemark>
+      <name>Luas Red Line Line</name>
+      <styleUrl>#routeStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.22918668,53.34827635,0 -6.378766,53.289374,0 -6.313299,53.335879,0 -6.307231258,53.33659218,0 -6.384038,53.293311,0 -6.343697,53.32652,0 </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

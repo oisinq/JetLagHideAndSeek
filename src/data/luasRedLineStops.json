@@ -10,10 +10,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.333778,
-          53.32924
-        ]
+        "coordinates": [-6.333778, 53.32924]
       }
     },
     {
@@ -25,10 +22,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.318256,
-          53.335305
-        ]
+        "coordinates": [-6.318256, 53.335305]
       }
     },
     {
@@ -40,10 +34,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.292756,
-          53.338362
-        ]
+        "coordinates": [-6.292756, 53.338362]
       }
     },
     {
@@ -55,10 +46,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.293237662,
-          53.34181261
-        ]
+        "coordinates": [-6.293237662, 53.34181261]
       }
     },
     {
@@ -70,10 +58,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.25845,
-          53.348504
-        ]
+        "coordinates": [-6.25845, 53.348504]
       }
     },
     {
@@ -85,10 +70,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.251598,
-          53.350045
-        ]
+        "coordinates": [-6.251598, 53.350045]
       }
     },
     {
@@ -100,25 +82,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.22918668,
-          53.34827635
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8230GA00341",
-        "name": "Hospital (Luas Red Line)",
-        "routes": "Luas Red Line"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.378766,
-          53.289374
-        ]
+        "coordinates": [-6.22918668, 53.34827635]
       }
     },
     {
@@ -130,10 +94,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.313299,
-          53.335879
-        ]
+        "coordinates": [-6.313299, 53.335879]
       }
     },
     {
@@ -145,25 +106,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.307231258,
-          53.33659218
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8230GA00338",
-        "name": "Cookstown (Luas Red Line)",
-        "routes": "Luas Red Line"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.384038,
-          53.293311
-        ]
+        "coordinates": [-6.307231258, 53.33659218]
       }
     },
     {
@@ -175,10 +118,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.343697,
-          53.32652
-        ]
+        "coordinates": [-6.343697, 53.32652]
       }
     },
     {
@@ -190,10 +130,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.327515,
-          53.334196
-        ]
+        "coordinates": [-6.327515, 53.334196]
       }
     },
     {
@@ -205,10 +142,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.297369,
-          53.337846
-        ]
+        "coordinates": [-6.297369, 53.337846]
       }
     },
     {
@@ -220,10 +154,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.291618,
-          53.346697
-        ]
+        "coordinates": [-6.291618, 53.346697]
       }
     },
     {
@@ -235,10 +166,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.286936,
-          53.347835
-        ]
+        "coordinates": [-6.286936, 53.347835]
       }
     },
     {
@@ -250,10 +178,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.278080805,
-          53.3471135
-        ]
+        "coordinates": [-6.278080805, 53.3471135]
       }
     },
     {
@@ -265,10 +190,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.265275464,
-          53.34768301
-        ]
+        "coordinates": [-6.265275464, 53.34768301]
       }
     },
     {
@@ -280,10 +202,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.247569832,
-          53.34942861
-        ]
+        "coordinates": [-6.247569832, 53.34942861]
       }
     },
     {
@@ -295,55 +214,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.243269507,
-          53.34916764
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8230GA00347",
-        "name": "Belgard (Luas Red Line)",
-        "routes": "Luas Red Line"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.374808,
-          53.299145
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8230GA00350",
-        "name": "Kingswood (Luas Red Line)",
-        "routes": "Luas Red Line"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.365409,
-          53.303586
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8230GA00353",
-        "name": "Red Cow (Luas Red Line)",
-        "routes": "Luas Red Line"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.369780553,
-          53.31674596
-        ]
+        "coordinates": [-6.243269507, 53.34916764]
       }
     },
     {
@@ -355,10 +226,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.273660411,
-          53.34685189
-        ]
+        "coordinates": [-6.273660411, 53.34685189]
       }
     },
     {
@@ -370,25 +238,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -6.237126865,
-          53.34878043
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "8230GA00344",
-        "name": "Tallaght (Luas Red Line)",
-        "routes": "Luas Red Line"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.374685,
-          53.287523
-        ]
+        "coordinates": [-6.237126865, 53.34878043]
       }
     }
   ]

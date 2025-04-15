@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Luas Green Line</name>
+    <description>Luas Green Line</description>
+    
+    <!-- Style for the route -->
+    <Style id="routeStyle">
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    
+    <!-- Style for the points -->
+    <Style id="pointStyle">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+
+    <!-- Style for the circles -->
+    <Style id="circleStyle">
+      <LineStyle>
+        <color>7f0000ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>1f0000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    
+    <!-- Folder for points and circles -->
+    <Folder>
+      <name>Luas Green Line</name>
+      <Placemark>
+        <name>1. Broombridge (Luas Green Line)</name>
+        <description>ID: 8220GA00460</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.29752527,53.37215461,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. O'Connell Upper (Luas Green Line)</name>
+        <description>ID: 8220GA00470</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.261151,53.351612,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. Dominick (Luas Green Line)</name>
+        <description>ID: 8220GA00478</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.265573,53.351245,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. Kilmacud (Luas Green Line)</name>
+        <description>ID: 8250GA00295</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.224107001,53.28291052,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. Ballyogan Wood (Luas Green Line)</name>
+        <description>ID: 8250GA00322</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.184472,53.254982,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. Carrickmines (Luas Green Line)</name>
+        <description>ID: 8250GA00325</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.171624,53.254334,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. Cherrywood (Luas Green Line)</name>
+        <description>ID: 8250GA00332</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.145975,53.245317,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. Beechwood (Luas Green Line)</name>
+        <description>ID: 8220GA00083</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.25475,53.320929,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. Cowper (Luas Green Line)</name>
+        <description>ID: 8220GA00275</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.253499,53.316398,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. Harcourt (Luas Green Line)</name>
+        <description>ID: 8220GA00440</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.26283,53.333631,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11. Dundrum (Luas Green Line)</name>
+        <description>ID: 8250GA00286</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.245234,53.292375,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12. Balally (Luas Green Line)</name>
+        <description>ID: 8250GA00291</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.236791,53.286023,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13. Central Park (Luas Green Line)</name>
+        <description>ID: 8250GA00310</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.20389942,53.27016803,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14. Glencairn (Luas Green Line)</name>
+        <description>ID: 8250GA00313</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.210132292,53.2663249,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15. The Gallops (Luas Green Line)</name>
+        <description>ID: 8250GA00316</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.205947,53.261063,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16. Laughanstown (Luas Green Line)</name>
+        <description>ID: 8250GA00329</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.155087,53.250555,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17. Broadstone - University (Luas Green Line)</name>
+        <description>ID: 8220GA00468</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.273733,53.354033,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18. Windy Arbour (Luas Green Line)</name>
+        <description>ID: 8250GA00281</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.250841,53.301757,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19. Stillorgan (Luas Green Line)</name>
+        <description>ID: 8250GA00297</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.21036734,53.27936144,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20. Charlemont (Luas Green Line)</name>
+        <description>ID: 8220GA00070</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.258704,53.330585,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21. Milltown (Luas Green Line)</name>
+        <description>ID: 8220GA00278</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.251749984,53.30967244,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22. Westmoreland (Luas Green Line)</name>
+        <description>ID: 8220GA00443</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.259086,53.34637,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>23. O'Connell - GPO (Luas Green Line)</name>
+        <description>ID: 8220GA00444</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.259968,53.348839,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>24. Grangegorman (Luas Green Line)</name>
+        <description>ID: 8220GA00479</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.27747,53.357115,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>25. Cabra (Luas Green Line)</name>
+        <description>ID: 8220GA00480</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.282029723,53.36432866,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>26. Sandyford (Luas Green Line)</name>
+        <description>ID: 8250GA00293</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point>
+          <coordinates>-6.204714,53.277533,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    
+    <!-- Route line -->
+    <Placemark>
+      <name>Luas Green Line Line</name>
+      <styleUrl>#routeStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-6.29752527,53.37215461,0 -6.261151,53.351612,0 -6.265573,53.351245,0 -6.224107001,53.28291052,0 -6.184472,53.254982,0 -6.171624,53.254334,0 -6.145975,53.245317,0 -6.25475,53.320929,0 -6.253499,53.316398,0 -6.26283,53.333631,0 -6.245234,53.292375,0 -6.236791,53.286023,0 -6.20389942,53.27016803,0 -6.210132292,53.2663249,0 -6.205947,53.261063,0 -6.155087,53.250555,0 -6.273733,53.354033,0 -6.250841,53.301757,0 -6.21036734,53.27936144,0 -6.258704,53.330585,0 -6.251749984,53.30967244,0 -6.259086,53.34637,0 -6.259968,53.348839,0 -6.27747,53.357115,0 -6.282029723,53.36432866,0 -6.204714,53.277533,0 </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
